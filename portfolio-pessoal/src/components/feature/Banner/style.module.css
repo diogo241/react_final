@@ -1,0 +1,20 @@
+.banner__img {
+    box-shadow: -7px 7px 0px 0px #EDF7FA;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .banner__img-wrapper {
+        justify-content: center;
+        display: flex;
+        width: 100%;   
+        order: 0; 
+    }
+    .banner__content {
+        order: 1;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+}

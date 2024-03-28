@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Designing Dashboards",
+        "category": {
+            "primary": "Dashboards",
+            "secondary": "User Experience"
+        },
+        "year": "2020",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "featured_image": {
+            "src": "/src/assets/works/first.png",
+            "alt": "Featured Image"
+        },
+        "first_img": {
+            "src": "/src/assets/works/1.png",
+            "alt": "first"
+        },
+        "secondary_img": {
+            "src": "/src/assets/works/2.png",
+            "alt": "secondary"
+        },
+        "subtitle": "Heading 1",
+        "body_title": "Heading 2",
+        "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 2,
+        "title": "Vibrant Portraits of 2020",
+        "category": {
+            "primary": "Illustration",
+            "secondary": "User Experience"
+        },
+        "year": "2018",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "featured_image": {
+            "src": "/src/assets/works/second.png",
+            "alt": "Featured Image"
+        },
+        "first_img": {
+            "src": "/src/assets/works/1.png",
+            "alt": "first"
+        },
+        "secondary_img": {
+            "src": "/src/assets/works/3.png",
+            "alt": "secondary"
+        },
+        "subtitle": "Heading 1",
+        "body_title": "Heading 2",
+        "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 3,
+        "title": "36 Days of Malayalam type",
+        "category": {
+            "primary": "Dashboards",
+            "secondary": "Typography"
+        },
+        "year": "2018",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "featured_image": {
+            "src": "/src/assets/works/third.png",
+            "alt": "Featured Image"
+        },
+        "first_img": {
+            "src": "/src/assets/works/1.png",
+            "alt": "first"
+        },
+        "secondary_img": {
+            "src": "/src/assets/works/3.png",
+            "alt": "secondary"
+        },
+        "subtitle": "Heading 1",
+        "body_title": "Heading 2",
+        "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 4,
+        "title": "Components",
+        "category": {
+            "primary": "Components",
+            "secondary": "User Experience"
+        },
+        "year": "2016",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "featured_image": {
+            "src": "/src/assets/works/four.png",
+            "alt": "Featured Image"
+        },
+        "first_img": {
+            "src": "/src/assets/works/1.png",
+            "alt": "first"
+        },
+        "secondary_img": {
+            "src": "/src/assets/works/3.png",
+            "alt": "secondary"
+        },
+        "subtitle": "Heading 1",
+        "body_title": "Heading 2",
+        "body": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+]

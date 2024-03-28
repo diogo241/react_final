@@ -1,0 +1,106 @@
+.logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+.header__item:hover a{
+    color: var(--primary);
+    text-decoration: underline;
+}
+.header__active {
+    color: var(--primary);
+}
+.header__link {
+    color: var(--dark);
+}
+
+.toggle-icon {
+    display: none;
+}
+.header {
+    position: relative;
+}
+@media (max-width: 768px) {
+    .header__item {
+        display: none;
+    }
+    .is-open .header__item {
+        display: block !important;
+    }
+    .header__navbar.is-open {
+        position: absolute;
+        top: 8rem;
+        right: 1.6rem;
+        background: white;
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: calc(100vw - (1.6rem * 2));
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 20px 5px rgb(0 0 0 / 10%);
+        border-radius: 0.2rem;
+        border: 1px solid #efefef;
+    }
+    .toggle-icon {
+        display: block;
+    }   
+    .hamburger {
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        position: relative;
+        transition: all 0.2s ease-in-out;
+    }
+    .hamburger::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        top: 0.8rem;
+        transition: all 0.2s ease-in-out;
+    }
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        bottom: 0.8rem;
+        transition: all 0.2s ease-in-out;
+    }
+    .close{
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        position: relative;
+        transform: "translateX(-50px)",
+    }
+    .close::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        top: 0.8rem;
+        transition: all 0.2s ease-in-out;
+        transform: rotate(45deg) translateX(-11px);
+    }
+    .close::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background: var(--dark);
+        bottom: 0.8rem;
+        transition: all 0.2s ease-in-out;
+        transform: rotate(-45deg) translateX(-11px);
+    }
+    .close{
+        transition: all 0.2s ease-in-out;
+        background: transparent !important;
+    }
+}

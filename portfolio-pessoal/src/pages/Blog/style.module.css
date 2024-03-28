@@ -1,0 +1,9 @@
+.divider {
+    background: var(--dark);
+    padding: 0 0.01rem;
+    height: 1.2rem;
+}
+.posts__card {
+    padding-bottom: 3.6rem;
+    border-bottom: 1px solid #E0E0E0;
+}

@@ -1,0 +1,10 @@
+.divider {
+    background: var(--dark);
+    padding: 0 0.01rem;
+    height: 1.2rem;
+}
+.recent-posts__card {
+    background: white;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 20px 10px rgb(33 36 61 / 10%);
+}

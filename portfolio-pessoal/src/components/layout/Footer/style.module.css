@@ -1,0 +1,6 @@
+.footer-social {
+    display: flex;
+}
+.footer__social-img {
+    max-width: 2rem;
+}
